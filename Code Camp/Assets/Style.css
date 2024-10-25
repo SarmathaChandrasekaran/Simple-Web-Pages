@@ -1,0 +1,116 @@
+body{
+    color: white;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/App-development.jpg);
+}
+
+.Navigation{
+    display: flex;
+}
+
+h1{
+    font-size: xxx-large;
+}
+
+.nav{
+    margin-left: 400px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signPage{
+    padding-top: 26px;
+}
+
+.signPage button{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+}
+
+.signInBtn{
+    border: none;
+}
+
+.signInBtn:hover{
+    cursor: pointer;
+}
+
+.signUpBtn{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.signUpBtn:hover{
+    cursor: pointer;
+}
+
+.signPage ul{
+    display: flex;
+    list-style: none;
+}
+
+.content{
+    width: 500px;
+    margin-left: 65%;
+}
+
+.content1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.content2{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.JoinBtn{
+    margin-top: 30px;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(23, 143, 218);
+    border: none;
+    border-radius: 5px;
+}
+
+.JoinBtn:hover{
+    cursor: pointer;
+}
+
+.LearnBtn{
+    color: white;
+    font-size: medium;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+.LearnBtn:hover{
+    cursor: pointer;
+}
+
