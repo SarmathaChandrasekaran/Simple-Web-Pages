@@ -1,0 +1,28 @@
+body {
+    background-image: url(images/mountain.jpg);
+    background-size: cover;
+}
+
+.main {
+    margin: auto;
+    margin-top: 160px;
+    backdrop-filter: blur(6px);
+    border-radius: 5px;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    width: 100%;
+    margin: 20px;
+    margin-left: 2px;
+}
+
+.input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.link:hover{
+    cursor: pointer;
+}
