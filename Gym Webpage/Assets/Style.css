@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(202, 195, 195);
+}
+
+.contain {
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+.one {
+    background-image: linear-gradient(rgb(94, 92, 92), grey), url("Images/Gym1.webp");
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.one-1 {
+    height: 70px;
+    letter-spacing: 3px;
+}
+
+button {
+    width: 160px;
+}
+
+.package {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.package-content {
+    width: 100%;
+    height: 90vh;
+    margin-left: 1px;
+    text-align: center;
+}
+
+.Row {
+    padding-top: 20vh;
+}
+
+.col-head {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.amount {
+    font-size: 25px;
+}
+
+.col-content {
+    padding: 15px;
+}
+
+.col-btn {
+    margin-top: 15px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 4px;
+}
+
+.bottom {
+    height: 100vh;
+}
+
+.bottom-start {
+    height: 5vh;
+}
+
+.bottom img {
+    height: 70vh;
+
+    width: 100%;
+}
+
+.bottom-content {
+    height: 20vh;
+}
+
+.bc-one {
+    padding-left: 150px;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.bc-one2 {
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.bc-two {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.bottom-last {
+    height: 5vh;
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: 5px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
